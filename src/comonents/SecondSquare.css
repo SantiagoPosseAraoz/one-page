@@ -1,0 +1,18 @@
+.SecondSquare{
+    background-color: black;
+    height: 100vh;
+}
+.second-left{
+    width: 40%;
+    background-color: beige;
+    height: 100%;
+    float: left;
+    border-radius: 0 50px 50px 0;
+}
+.second-right{
+    width: 40%;
+    background-color: beige;
+    height: 100%;
+    float: right;
+    border-radius: 50px 0 0 50px;
+}

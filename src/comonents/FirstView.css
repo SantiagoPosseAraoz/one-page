@@ -1,0 +1,29 @@
+.FirstView{
+    background-color: rgb(243 241 208);
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    color:rgb(243 241 208);
+    display: flex;
+}
+
+.Card{
+    background-color: #0b0c0b;
+    width: 80%;
+    height: 80%;
+    color: rgb(243 241 208);    
+    margin: auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.FirstView-left{
+    float: left;
+    width: 30%;
+    height: 100%;
+    border-right: solid 1px rgb(243 241 208);
+}
+.FirstView-right{
+    float: right;
+    width: 69%;
+    height: 100%;
+}

@@ -1,10 +1,17 @@
 import "./FirstSquare.css";
+import {useState} from 'react'
 
 function FirstSquare() {
+  const [isActive, setActive] = useState(false); 
+
+  const toggleClass = () => {
+    setActive(!isActive);
+  };
+
   return (
-    <div className="FirstSquare">
-      <div className="first-left"><h1>hola test</h1></div>
-      <div className="first-right"></div>
+    <div className={`${isActive ? 'big-bg-first': ""} FirstSquare`} onClick={toggleClass}>
+      <div className={`${isActive ? 'big-first-left': ""} first-left`} onClick={toggleClass}></div>
+      <div className={`${isActive ? 'big-first-right': ""} first-right`} onClick={toggleClass}></div>
     </div>
   );
 }

@@ -1,18 +1,57 @@
 .SecondSquare{
-    background-color: black;
-    height: 100vh;
+    background-color: #0b0c0b;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    color: #0b0c0b;
+    transition: 0.5s;
+}
+.SecondSquare:hover .second-left{
+    transition: 0.5s;
+    left: -15%;
+}
+.SecondSquare:hover .second-right{
+    transition: 0.5s;
+    right: -15%;
 }
 .second-left{
     width: 40%;
-    background-color: beige;
-    height: 100%;
+    background-color: rgb(243 241 208);
+    height: 100px;
     float: left;
     border-radius: 0 50px 50px 0;
+    position: absolute;
+    left: -20%;
+    transition: 0.5s;
 }
+.big-second-left{
+    height: 500px;
+    overflow:hidden;
+}
+
+.SecondSquare:hover .big-second-left{
+    left: 0;
+}
+
 .second-right{
     width: 40%;
-    background-color: beige;
-    height: 100%;
+    background-color: rgb(243 241 208);
+    height: 100px;
     float: right;
     border-radius: 50px 0 0 50px;
+    position: absolute;
+    right: -20%;
+    transition: 0.5s;
+}
+.big-second-right{
+    height: 500px;
+    overflow:hidden;
+}
+.SecondSquare:hover .big-second-right{
+    right: 0;
+}
+.big-bg-second{
+    height: 500px;
+    overflow:hidden;
+    transition: 0.5s;
 }

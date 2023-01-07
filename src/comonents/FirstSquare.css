@@ -1,35 +1,56 @@
 .FirstSquare{
-    background-color: beige;
-    height: 100vh;
+    background-color: rgb(243 241 208);
+    height: 100px;
     position: relative;
     overflow: hidden;
-    color:beige
+    color:rgb(243 241 208);
+    transition: 0.5s;
 }
 .FirstSquare:hover .first-left{
-    transition: 1.5s;
-    left: 0;
+    transition: 0.5s;
+    left: -15%;
 }
 .FirstSquare:hover .first-right{
-    transition: 1.5s;
-    right: 0;
+    transition: 0.5s;
+    right: -15%;
 }
 .first-left{
     width: 40%;
-    background-color: black;
-    height: 100%;
+    background-color: #0b0c0b;
+    height: 100px;
     float: left;
     border-radius: 0 50px 50px 0;
     position: absolute;
     left: -20%;
-    transition: 1.5s;
+    transition: 0.5s;
+}
+.big-first-left{
+    height: 500px;
+    overflow:hidden;
+}
+
+.FirstSquare:hover .big-first-left{
+    left: 0;
 }
 .first-right{
     width: 40%;
-    background-color: black;
-    height: 100%;
+    background-color: #0b0c0b;
+    height: 100px;
     float: right;
     border-radius: 50px 0 0 50px;
     position: absolute;
     right: -20%;
-    transition: 1.5s;
+    transition: 0.5s;
+}
+.big-first-right{
+    height: 500px;
+    overflow:hidden;
+}
+.FirstSquare:hover .big-first-right{
+    right: 0;
+}
+.big-bg-first{
+    height: 500px;
+    overflow:hidden;
+    transition: 0.5s;
 }

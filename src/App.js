@@ -7,13 +7,13 @@ import SecondView from './comonents/SecondView';
 function App() {
   return (
     <div className="App">
-      <FirstView/>
+      <SecondView/>
       <div>
         <FirstSquare/>
         <SecondSquare/>
         <FirstSquare/>
       </div>
-      <SecondView/>
+      <FirstView/>
     </div>
   );
 }

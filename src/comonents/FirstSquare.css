@@ -46,6 +46,15 @@
     height: 500px;
     overflow:hidden;
 }
+
+.big-bg-first div:hover{
+    width: 60%;
+}
+
+.big-bg-first:hover div:not(:hover){
+    width: 30%;
+}
+
 .FirstSquare:hover .big-first-right{
     right: 0;
 }

@@ -55,3 +55,17 @@
     overflow:hidden;
     transition: 0.5s;
 }
+
+
+
+.big-bg-second div:hover{
+    width: 60%;
+}
+
+.big-bg-second:hover div:not(:hover){
+    width: 30%;
+}
+
+.secondSquare:hover .big-second-right{
+    right: 0;
+}

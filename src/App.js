@@ -3,10 +3,12 @@ import FirstSquare from './comonents/FirstSquare.js';
 import SecondSquare from './comonents/SecondSquare';
 import FirstView from './comonents/FirstView';
 import SecondView from './comonents/SecondView';
+import Navbar from './comonents/Navbar.js';
 
 function App() {
   return (
     <div className="App">
+      <Navbar/>
       <SecondView/>
       <div>
         <FirstSquare/>
